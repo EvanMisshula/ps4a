@@ -1,0 +1,20 @@
+
+notQuit = FALSE
+While (notQuit) {
+  print banner
+
+  get raw_input
+
+  check IsInputValid
+  if (valid) {
+     compute computeOrQuit
+     if (compute) {
+       compute
+       } else {
+       quit()
+       }
+      } else {
+      input not valid mseg
+      }
+}
+
